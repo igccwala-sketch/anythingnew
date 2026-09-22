@@ -4,7 +4,6 @@
   "private": true,
   "description": "Browser automation / testing utilities for the Gmail Creator Bot project, powered by Playwright.",
   "scripts": {
-    "postinstall": "playwright install --with-deps chromium",
     "test": "playwright test"
   },
   "devDependencies": {
