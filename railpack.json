@@ -4,10 +4,7 @@
     "python": "3.11",
     "node": "20"
   },
-  "build": {
-    "commands": [
-      "chmod +x build.sh",
-      "./build.sh"
-    ]
+  "deploy": {
+    "startCommand": "npm install && playwright install --with-deps chromium && python bot.py"
   }
 }
