@@ -42,6 +42,10 @@ cd Gmail_Creator_Bot_Updated
 pip install -r requirements.txt
 playwright install chromium
 
+# 2b. (Optional) Node/Playwright tooling for browser automation tests
+npm install
+npx playwright install --with-deps chromium
+
 # 3. Configure
 nano config.py
 # Add your BOT_TOKEN and OWNER_ID
