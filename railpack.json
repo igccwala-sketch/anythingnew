@@ -3,5 +3,11 @@
   "packages": {
     "python": "3.11",
     "node": "20"
+  },
+  "build": {
+    "commands": [
+      "chmod +x build.sh",
+      "./build.sh"
+    ]
   }
 }
